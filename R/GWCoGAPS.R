@@ -95,7 +95,7 @@ Fixed <- foreach(i=1:nSets) %dopar% {
     }
 
 #extract A and Asds
-As4fixPs <- postFixed(AP.fixed=Fixed,setPs=matchedPs)
+As4fixPs <- postFixed4Parallel(AP.fixed=Fixed,setPs=matchedPs)
 
 
 #save final
