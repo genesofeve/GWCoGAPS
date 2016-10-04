@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples \dontrun{
-#' As4fixPs <- postFixed(AP.fixed=Fixed,setPs=matchedPs)
+#' As4fixPs <- postFixed4Parallel(AP.fixed=Fixed,setPs=matchedPs)
 #' }
 #'
 #'
