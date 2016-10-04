@@ -13,7 +13,7 @@
 #' }
 #'
 #'
-postFixed <- function(AP.fixed=AP.Fixed, # output of parallel gapsMapRun calls with same FP
+postFixed4Parallel <- function(AP.fixed=AP.Fixed, # output of parallel gapsMapRun calls with same FP
 	setPs=matchedPs, # data.frame with rows giving fixed patterns for P used as input for gapsMapRun
 	...){
 
